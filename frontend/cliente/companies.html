@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBuy</title>
+    <link rel="stylesheet" href="../cliente/css/companies.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div id="CategorieName">
+                <p>Categoria 1</p>
+                
+            </div>
+        </section>
+
+        <nav>
+            <button><i class="fa-solid fa-magnifying-glass" style="color: #f9f9f9;"></i></button>
+            <input type="text" placeholder="Hoy tengo ganas de...">
+            <button data-bs-toggle="offcanvas" data-bs-target="#rightMenu" aria-controls="offcanvasRight" ><i class="fa-solid fa-bars" style="color: #f9f9f9;"></i></button>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row sloganCategories">
+            <div class="col">
+                <p>¡Tenemos cientos de opciones para ti!</p>
+            </div>
+
+        </div>
+        <div id="panelCompanies" class="row">
+            <div onclick="openProducts(nombre)" class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="col-6">
+
+                <div class="companieCard">
+                    <div class="companieImage">
+                        <div class="companieImageBackground"></div>
+                        <img src="../cliente/assets/images/restaurantes.png" alt="">
+                    </div>
+                    <div class="companieInfo">
+                        <p>Empresa 1</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                            <i class="fa-solid fa-star" style="color: gray;"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            
+
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <img class="logo" src="../landPage/assets/img/logoIcon.png" alt="">
+        <div>
+            <a href="">Clientes</a>
+            <a href="">Drivers</a>
+            <a href="">Empresas</a>
+        </div>
+        <div>
+            <p>Contacto</p>
+            <a href="">Centro de ayuda</a>
+            <a href="">Terminos y condiciones</a>
+            <a href="">Politicas de privacidad y seguridad</a>
+        </div>
+
+        <div>
+            <p>Follow us</p>
+            <div>
+                <i class="fa-brands fa-instagram" style="color: #f9f9f9;"></i>
+                <i class="fa-brands fa-twitter" style="color: #f9f9f9;"></i>
+                <i class="fa-brands fa-facebook-f" style="color: #f9f9f9;"></i>
+            </div>
+        </div>
+    </footer>
+
+     <!--Menu lateral-->
+     <div class="offcanvas offcanvas-end" tabindex="-1" id="rightMenu" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header d-flex justify-content-betwen aling-items-center">
+            <div class="imgMenuProfile">
+                <img class="logoNameMenu" src="../landPage/assets/img/logoNombre.png" alt="">
+            </div>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column  px-0 ">
+
+            <div id="imgMenuProfile">
+                <img src="../cliente/assets/images/profileimg.jpg" alt="">
+            </div>
+            <p >Pedro Martinez</p>
+            <ul class="navbar-nav fs-5 justify-content-evenly">
+                <li class="nav-item p-3 py-md-1"><i class="fa-solid fa-house" style="color: #f9f9f9;"></i><a class="nav-link" href="../cliente/categories.html">Inicio</a></li>
+                <li class="nav-item p-3 py-md-1"> <i class="fa-solid fa-user" style="color: #f9f9f9;"></i><a class="nav-link" href="">Mi Perfil</a></li>
+                <li class="nav-item p-3 py-md-1"><i class="fa-solid fa-cart-shopping" style="color: #f9f9f9;"></i><a class="nav-link" href="../cliente/purchases.html">Mis compras</a></li>
+                <li class="nav-item p-3 py-md-1"><i class="fa-solid fa-circle-xmark" style="color: #f9f9f9;"></i><a class="nav-link" href="../landPage/index.html">Salir</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/75b6a1d3df.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./js/companies.js"></script>
+</body>
+
+</html>

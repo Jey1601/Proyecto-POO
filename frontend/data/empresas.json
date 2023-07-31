@@ -1,0 +1,110 @@
+[
+    {
+        "nombre":"Empresa xy",
+        "descripcion":"lorem",
+        "categoria":"Restaurantes",
+        "direccion":"lorem ipsum",
+        "telefono":"empresaxy@gamil.com",
+        "email":"empresaxy@gamil.com",
+        "puntuacion":3,
+        "imagen":"https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg",
+        "productos":[
+            {
+                "codigo":1,
+                "nombre":"Producto",
+                "descripcion":"lorem ipsum",
+                "precio":19.99
+            },
+            {
+                "codigo": 2,
+                "nombre": "Producto 2",
+                "descripcion": "Descripción del Producto 2",
+                "precio": 25.50
+            },
+            {
+                "codigo": 3,
+                "nombre": "Producto 3",
+                "descripcion": "Descripción del Producto 3",
+                "precio": 12.75
+            },
+            {
+                "codigo": 4,
+                "nombre": "Producto 4",
+                "descripcion": "Descripción del Producto 4",
+                "precio": 8.99
+            }
+        ]  
+    },
+    {
+    "nombre": "Empresa XY",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id bibendum risus.",
+    "categoria": "Farmacias",
+    "direccion": "Calle Ficticia #123, Ciudad Imaginaria",
+    "telefono": "123-456-7890",
+    "email": "contacto@empresaxy.com",
+    "puntuacion":2,
+        "imagen":"https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg",
+        "productos":[
+            {
+                "codigo":1,
+                "nombre":"Producto",
+                "descripcion":"lorem ipsum",
+                "precio":19.99
+            },
+            {
+                "codigo": 2,
+                "nombre": "Producto 2",
+                "descripcion": "Descripción del Producto 2",
+                "precio": 25.50
+            },
+            {
+                "codigo": 3,
+                "nombre": "Producto 3",
+                "descripcion": "Descripción del Producto 3",
+                "precio": 12.75
+            },
+            {
+                "codigo": 5,
+                "nombre": "Producto 5",
+                "descripcion": "Descripción del Producto 5",
+                "precio": 9.99
+            }
+        ]  
+    },
+    {
+        "nombre": "Empresa Y",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id bibendum risus.",
+        "categoria": "Cafetería",
+        "direccion": "Calle Ficticia #12, Ciudad Imaginaria",
+        "telefono": "123-456-7890",
+        "email": "contacto@empresaxy.com",
+        "puntuacion":4,
+            "imagen":"https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg",
+            "productos":[
+                {
+                    "codigo":1,
+                    "nombre":"Producto",
+                    "descripcion":"lorem ipsum",
+                    "precio":19.99
+                },
+                {
+                    "codigo": 2,
+                    "nombre": "Producto 2",
+                    "descripcion": "Descripción del Producto 2",
+                    "precio": 25.50
+                },
+                {
+                    "codigo": 3,
+                    "nombre": "Producto 3",
+                    "descripcion": "Descripción del Producto 3",
+                    "precio": 12.75
+                },
+                {
+                    "codigo": 6,
+                    "nombre": "Producto 6",
+                    "descripcion": "Descripción del Producto 6",
+                    "precio": 10.99
+                }
+            ]  
+        }
+]

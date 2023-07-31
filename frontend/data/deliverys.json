@@ -1,0 +1,78 @@
+[
+    {
+        "Usuario":"801200119258",
+        "nombre":"Julio",
+        "apellidos":"Espinal Guevara",
+        "direccion":"direccion ficticia",
+        "telefono":"33281590",
+        "email":"email@gmail.com",
+        "placa":"ser1924",
+        "contraseña":"1234",
+        "ordenesTomadas":[],
+        "ordenesEntregadas":[]
+
+    },
+    {
+        "Usuario": "801200119258",
+        "nombre": "Julio",
+        "apellidos": "Espinal Guevara",
+        "direccion": "Calle Ficticia #123, Ciudad Imaginaria",
+        "telefono": "33281590",
+        "email": "julio.espinal@email.com",
+        "placa": "SER1924",
+        "contraseña": "secreto123",
+        "ordenesTomadas": [
+         
+        ],
+        "ordenesEntregadas": [
+           
+        ]
+    },
+    {
+        "Usuario": "801200119259",
+        "nombre": "María",
+        "apellidos": "González Pérez",
+        "direccion": "Av. Falsa #456, Pueblo Imaginado",
+        "telefono": "55512345",
+        "email": "maria.gonzalez@email.com",
+        "placa": "ABC9876",
+        "contraseña": "clave456",
+        "ordenesTomadas": [
+            
+        ],
+        "ordenesEntregadas": [
+        
+        ]
+    },
+    {
+    "Usuario": "801200119260",
+    "nombre": "Carlos",
+    "apellidos": "López Ramírez",
+    "direccion": "Carrera Imaginaria #789, Villa Soñada",
+    "telefono": "77798765",
+    "email": "carlos.lopez@email.com",
+    "placa": "XYZ1234",
+    "contraseña": "secreta789",
+    "ordenesTomadas": [],
+    "ordenesEntregadas": [
+        {
+            "id": "D567",
+            "fecha": "2023-07-29",
+            "producto": "Pasta",
+            "cantidad": 2
+        },
+        {
+            "id": "E432",
+            "fecha": "2023-07-27",
+            "producto": "Ensalada",
+            "cantidad": 1
+        },
+        {
+            "id": "F987",
+            "fecha": "2023-07-25",
+            "producto": "Hamburguesa",
+            "cantidad": 3
+        }
+    ]
+}
+]

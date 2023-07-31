@@ -1,0 +1,89 @@
+@font-face {
+    font-family: general;
+    src: url(/frontend/assets/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}
+
+*{
+    font-family: general;
+}
+
+body{
+    background-image: url(../assets/images/signupBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0;
+}
+
+.message{
+    height: 28%;
+    width: -webkit-fill-available;
+    display: relative;
+    position: relative;
+}
+
+.message div{
+    margin-left: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+}
+
+.message p{
+    font-size: xx-large;
+    color: #f9f9f9;
+    margin: 0;
+}
+
+.signUpFormContainer{
+    height: 40%;
+    width: -webkit-fill-available;
+
+    
+}
+
+#signUpForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem;
+}
+
+#signUpForm input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f9f9f9;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+#signUpForm input::placeholder{
+    color: #f9f9f9;
+    font-size: 14px;
+}
+
+#signUpForm button{
+    color: #f9f9f9;
+    width: 110px;
+    background-color: #ff6392;
+    border: none;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.footer{
+    height: 32%;
+    width: -webkit-fill-available;
+    position: relative;
+}
+
+.footer a{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #13070c;
+}
